@@ -1,4 +1,4 @@
-👋  Hi, I’m @arnoldtonderaimarunda - ♂♀ Married Father of 5 kids. ✝️ Jesus Christ Follower. 📚 Lifelong Learner. 🍏 Alternative Educator. 💻  Workflow Automation Expert. 
+👋  Hi, I’m @arnoldtonderaimarunda. ♂♀ Married Father of 5 kids. ✝️ Jesus Christ Follower. 📚 Lifelong Learner. 🍏 Alternative Educator. 💻  Workflow Automation Expert. 
 
 Always creative THINKING different. I build workflow automations to help startups, enterprises and entrepreneurs connect data and applications across the internet to:- Automate repetitive tasks & minimise human error; and Reclaim countless hours & save thousands of dollars.
 
