@@ -1,14 +1,7 @@
-👋  Hi, I’m @arnoldtonderaimarunda
+👋  Hi, I’m @arnoldtonderaimarunda - ♂♀ Married Father of 5 kids. ✝️ Jesus Christ Follower. 📚 Lifelong Learner. 🍏 Alternative Educator. 💻  Workflow Automation Expert. 
 
-♂♀  I'm Married
+Always creative THINKING different. I build workflow automations to help startups, enterprises and entrepreneurs connect data and applications across the internet to:- Automate repetitive tasks & minimise human error; and Reclaim countless hours & save thousands of dollars.
 
-✝️  I'm a Christian 
-
-📚  I'm a Lifelong Learner
-
-🍏  I'm an Alternative Educator
-
-💻  I'm a Workflow Automation Expert - always creativeTHINKINGdifferent. I will automate your workflows/processes with Zapier/ActiveCampaign/Klipfolio to build;
-- Connected apps & services using webhooks/Rest API
-- Customer engagement & experiences using email/SMS
-- Visualised metrics & indicators using dashboards/reports
+- Zapier | Connected apps & services using webhooks/Rest API.
+- ActiveCampaign | Customer engagements & experiences using email/SMS.
+- Klipfolio | Visualised metrics & indicators using dashboards/reports.
