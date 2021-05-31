@@ -1,8 +1,8 @@
 👋  Hi, I’m @arnoldtonderaimarunda.
 
-♂♀  Married Father of 5 kids.
-
 ✝️  Jesus Christ Follower.
+
+♂♀  Married - Father of 5 kids.
 
 📚  Lifelong Learner.
 
