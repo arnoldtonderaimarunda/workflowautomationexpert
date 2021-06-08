@@ -8,7 +8,7 @@
 
 🍏  Alternative Educator.
 
-💻   Workflow Automation Expert. 
+💻  Solopreneur - Workflow Automation Expert. 
 
 Always creative THINKING different. I build workflow automations to help startups, enterprises and entrepreneurs connect data and applications across the internet to:- Automate repetitive tasks & minimise human error; and Reclaim countless hours & save thousands of dollars.
 
