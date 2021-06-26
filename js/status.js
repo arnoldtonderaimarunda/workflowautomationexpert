@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var url="data/experts.json";
+  var url="/data/experts.json";
     $.getJSON(url, function(response) {
         var statusHTML = '<ul style="list-style-type: none;" class="status">';
         $.each(response,function (index){
