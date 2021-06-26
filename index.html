@@ -18,35 +18,6 @@
     <script src="https://use.fontawesome.com/c03127b13b.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-    <script type="text/javascript">
-      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
-      heap.load("1742492359");
-    </script>
-    <script>
-      // Skype
-      (function(r, d, s) {
-        r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function(p) {
-          var js, sjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(p.id)) { return; }
-          js = d.createElement(s);
-          js.id = p.id;
-          js.src = p.scriptToLoad;
-          js.onload = p.callback
-          sjs.parentNode.insertBefore(js, sjs);
-        };
-        var p = {
-          scriptToLoad: 'https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js',
-          id: 'skype_web_sdk'
-        };
-        r.loadSkypeWebSdkAsync(p);
-      })(window, document, 'script');
-    </script>
-    <script>
-      // Redirect to https
-      if(window.location.protocol != 'https:') {
-          location.href =   location.href.replace("http://", "https://");
-      }
-    </script>
   </head>
   <body class="layout">
 
@@ -104,10 +75,6 @@
             <i class="fa fa-envelope-o"></i> 
             <span class="share-text">Shoutout via Email</span>
           </a> 
-        </li><!--
-    
-        --><li class="skype"> 
-          <a role='link' aria-labelledby='shareButtonLabel' tabindex='0' onKeydown='skypeShareKeyDownHandler(event)' class='skype-share' data-href='https://arnold.workflowautomation.expert' data-lang='en' data-text='This Workflow Automation Expert built my workflow automation.' data-style=''  style='text-align:center;height:40px;background-color:#00AFF0;color:white;'><i class="fa fa-skype"></i></a>
         </li><!--
     
         --><li class="whatsapp"> 
@@ -260,7 +227,6 @@
       <div class="contact__layout">
         <div class="contact__layout__column contact__layout__column--left">
           <address aria-labelledby="contact__heading">
-            <a class="contact__external-link" href="skype:arnold.marunda?chat"><i class="fa fa-skype fa-2x"></i><span class="invisible">Contact me by Skype at </span></a>
             <a class="contact__external-link" href="https://github.com/arnoldtonderaimarunda"><i class="fa fa-github-square fa-2x"></i><span class="invisible">View my GitHub profile</span></a>
              <p class="contact__address"><span class="invisible">Visit us in person at </span>3 Kurrichane Way, Lichendale, Mandara,<br>HARARE, Zimbabwe</p>
           </address>
