@@ -570,7 +570,7 @@ ul.status .in {
 }
 
 ul.status .in:before {
-  content: "👨🏾‍💻 Available";
+  content: "Available";
   background-color: #5fcf80;
 }
 
