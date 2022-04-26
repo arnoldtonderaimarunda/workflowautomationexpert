@@ -530,12 +530,12 @@
 
   a {
     color:#000000; 
-    text-decoration;
+    text-decoration:none;
 }
 
 a:hover {
-  color:#000000; 
-  text-decoration;
+
+  text-decoration:none;
     cursor:pointer;  
 }
 
@@ -545,6 +545,7 @@ a:hover {
     -ms-appearance: none;
     -o-appearance: none;
     appearance: none;
+      color:#000000; 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
