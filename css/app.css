@@ -529,11 +529,13 @@
   width: 100%; }
 
   a {
-    text-decoration: none !important;
+    color:#000000; 
+    text-decoration;
 }
 
 a:hover {
-  text-decoration: none !important;
+  color:#000000; 
+  text-decoration;
     cursor:pointer;  
 }
 
