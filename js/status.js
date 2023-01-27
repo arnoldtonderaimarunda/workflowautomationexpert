@@ -8,7 +8,7 @@ $(document).ready(function(){
           }else{
                 statusHTML += '<li class="out"></li><li>';
           }
-          statusHTML += '</br><small>' + this.reason + '</small></li>';
+          statusHTML += '<li><small>' + this.reason + '</small></li>';
         });
           statusHTML += '</ul>';
           $('#expertStatus').html(statusHTML);
