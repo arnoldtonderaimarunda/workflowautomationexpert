@@ -4,9 +4,9 @@ $(document).ready(function(){
         var statusHTML = '<ul style="list-style-type: none;" class="status">';
         $.each(response,function (index){
           if(this.available === true) {
-                statusHTML += '<li class="in"></li><li>';
+                statusHTML += '<li class="in"></li>';
           }else{
-                statusHTML += '<li class="out"></li><li>';
+                statusHTML += '<li class="out"></li>';
           }
           statusHTML += '<li><small>' + this.reason + '</small></li>';
         });
