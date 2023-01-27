@@ -1,6 +1,6 @@
 [
   {
-   "reason": "Accept USDC-Polygon cryptocurrency payments.",
+   "reason": "Accept <a href='https://decrypt.co/resources/what-is-us-dollar-coin-usdc' target='_blank' rel='nofollow'><img src='img/usdc_logo.png' width='10%'/></a> USDC-Polygon/Matic cryptocurrency payments.",
    "available": true
   }
 ]
