@@ -9,20 +9,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Toggle the display state of the diagram container
     if (diagramContainer1.style.display === "none" || diagramContainer1.style.display === "") {
       diagramContainer1.style.display = "block";
-      toggleButton1.textContent = "- Close Diagram";
+      toggleButton1.textContent = "- Close sketch";
     } else {
       diagramContainer1.style.display = "none";
-      toggleButton1.textContent = "+ View Diagram";
+      toggleButton1.textContent = "+ View sketch";
     }
   });
     toggleButton2.addEventListener('click', () => {
     // Toggle the display state of the diagram container
     if (diagramContainer2.style.display === "none" || diagramContainer2.style.display === "") {
       diagramContainer2.style.display = "block";
-      toggleButton2.textContent = "- Close Diagram";
+      toggleButton2.textContent = "- Close sketch";
     } else {
       diagramContainer2.style.display = "none";
-      toggleButton2.textContent = "+ View Diagram";
+      toggleButton2.textContent = "+ View sketch";
     }
   });
 });
