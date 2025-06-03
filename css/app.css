@@ -668,3 +668,21 @@ ul.status .out:before {
 	clip: rect(1px 1px 1px 1px); /* syntax for IE6 & IE7 */
 	clip: rect(1px, 1px, 1px, 1px);
 }
+
+.diagram-container {
+  display: none;
+  text-align: center; /* Center the inline-block child */
+  margin-top: 20px;
+}
+
+.diagram {
+  display: inline-block;   /* Allows the pre block to be centered */
+  text-align: left;        /* Keeps the ASCII diagram’s content left-aligned */
+  background-color: #e8e8e8;
+  border: 1px solid #ccc;
+  padding: 20px;
+  white-space: pre;        /* Preserves spaces and line breaks */
+  font-size: 14px;
+  line-height: 1.5;
+}
+	
