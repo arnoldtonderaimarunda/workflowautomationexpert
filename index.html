@@ -191,7 +191,58 @@
                 <li class="service__list__item"><a href="https://www.raspberrypi.com" target="_blank" rel="nofollow"><img src="img/raspberrypi_logo.svg" style="padding-top: 25px; padding-bottom: 24px" width="15%"/></br></a></li>
                 <li class="service__list__item">Building Internet of Things</li>
               </ul>-->
-            </section>
+ <!-- Toggle Button -->
+  <button id="toggleButton">+ View Diagram</button>
+  
+  <!-- Diagram Container -->
+  <div class="diagram-container" id="diagramContainer">
+  <pre class="diagram">
+                              +------------------------------------------+                              
+                              |           Cloud / Remote Server          |                              
+                              +------------------------------------------+                              
+                                                 ↑                                                      
+                                             [TCP/IP]                                                
+                                                 ↓                                                      
+                              +------------------------------------------+                              
+                              |              SenseCAP M2                 |                              
+                              |                 Gateway                  |                              
+                              +------------------------------------------+                              
+                                                 ↑                                                      
+                                             [LoRaWAN]                                                  
+                                                 ↓                                                      
+                              +------------------------------------------+                              
+                              |          SenseCAP Indicator D1L          |                              
+                              |       (Touch Display/Controller)         |                              
+                              +----+--------------------------------+----+                              
+                                  /                                  \                                  
+                                 /                                    \                                 
+                        Actuator Grove Port                      Sensor Grove Port                      
+                                 |                                     |                                
+                         +-----------------+              +-----------------------+                     
+                         |   Grove Relay   |              | Grove Voltage Divider |                     
+                         |   (5V/10A)      |              |       (5V → 3.3V)     |                     
+                         +-------+- -------+              +------- ------- -------+                     
+                                 |                                     |                                
++-------------+                  v                                     v                                
+|             |        +-------------------+                    +--------------+        |              |
+|             |        |    Solenoid       |                    |   Flow       |        |     Water    |
+|   Water     +------->|      Valve        |-------Water------> |   Meter      +------->|  Destination |
+|  Source     |        |    (12V RPE)      |     Pipeline       |  (5V RPE)    |        |              |
+|             |        +-------------------+                    +--------------+        |              |
++-------------+                                                                         +--------------+
+                                                                                                        
+                                                                                                        
+                          +----------------------------------------------------+                        
+                          |                                                    |                        
+                          |           - DFRobot Solar Panel (5V, 1A)           |                        
+                          |           - 3.7V Lithium Battery                   |                        
+                          |           - Solar Power Manager                    |                        
+                          |                                                    |                        
+                          +----------------------------------------------------+
+</pre>
+</div>
+	    
+	</section>
           </div>		
 		
        <div class="what-we-do__services-layout__column">
