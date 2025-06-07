@@ -36,6 +36,22 @@
   font: bold 25px/1.5em "Avenir Next", sans-serif;
   margin: 40px 0 0 8.45272%; }
 
+.about__list {
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -ms-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  list-style: none;
+  margin: 40px 0 0 0;
+  opacity: 0.5;
+  padding: 0; }
+
+.about__list__item {
+  font: 18px/1.5em "Georgia", sans-serif;
+  margin: 40px 0 0 0;
+}
+
 
 .associate {
   margin: 65px 0 0 0; }
