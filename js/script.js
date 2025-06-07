@@ -1,10 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const toggleButton0 = document.getElementById('toggleButton0');
   const toggleButton1 = document.getElementById('toggleButton1');
   const toggleButton2 = document.getElementById('toggleButton2');
   const toggleButton3 = document.getElementById('toggleButton3');  
+  const diagramContainer0 = document.getElementById('diagramContainer0');
   const diagramContainer1 = document.getElementById('diagramContainer1');
   const diagramContainer2 = document.getElementById('diagramContainer2');
   const diagramContainer3 = document.getElementById('diagramContainer3');  
+  toggleButton0.addEventListener('click', () => {
+    // Toggle the display state of the diagram container
+    if (diagramContainer0.style.display === "none" || diagramContainer0.style.display === "") {
+      diagramContainer0.style.display = "block";
+      toggleButton0.textContent = "- Close";
+    } else {
+      diagramContainer0.style.display = "none";
+      toggleButton0.textContent = "+ Read more...";
+    }
+  });
   toggleButton1.addEventListener('click', () => {
     // Toggle the display state of the diagram container
     if (diagramContainer1.style.display === "none" || diagramContainer1.style.display === "") {
