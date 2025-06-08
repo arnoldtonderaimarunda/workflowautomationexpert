@@ -177,8 +177,72 @@
 </pre>
 </div>
 	    </section>
-          </div>
-
+          </div>	
+		
+       <div class="what-we-do__services-layout__column">
+            <section aria-label="1" class="service">
+              <h3 class="service__heading">
+                <span class="service__heading__content">
+                  <span class="service__heading__content__text">Gaso:metrica</span>
+                </span>
+              </h3>
+              <p class="service__description">🔥A smart LPG telemetry prototype designed for resource management in homes, kitchens, and workshops. By delivering real-time monitoring of LPG cylinder gas levels, it ensures that you never face the inconvenience of an unexpectedly empty cylinder. Instead, timely refill notifications help maximise operational uptime.</p>
+              <!--<ul aria-label="Process Automation" class="service__list" role="list">
+                <li class="service__list__item"><a href="https://anvil.works" target="_blank" rel="nofollow"><img style="padding-top: 20px; padding-bottom: 21px" src="img/anvil_logo.svg" width="20%"/></a></li>
+                <li class="service__list__item">Building integrated web apps</li>
+              </ul>-->
+ <!-- Toggle Button -->
+  <button id="toggleButton3">+ View sketch</button>
+  
+  <!-- Diagram Container -->
+  <div class="diagram-container" id="diagramContainer3">
+  <pre class="diagram">
+     +------------------------------------------+    
+      |           Cloud / Remote Server          |    
+      +------------------------------------------+    
+                         ↑                            
+                     [TCP/IP]                         
+                         ↓                            
+      +------------------------------------------+    
+      |              SenseCAP M2                 |    
+      |                 Gateway                  |    
+      +------------------------------------------+    
+                         ↑                            
+                     [LoRaWAN]                        
+                         ↓                            
+      +------------------------------------------+    
+      |          SenseCAP Indicator D1L          |    
+      |       (Touch Display/Controller)         |    
+      +------------------+-----------------------+    
+                         |                            
+                         |                            
+                   Sensor Grove Port                  
+                         |                            
+                 +-------+-------+                    
+                 |   Grove ADC   |                    
+                 |     HX711     |                    
+                 +-------+-------+                    
+                         |                            
+                         |                            
+                 +-------+-------+                    
+                 |     0-50kg    |                    
+                 |   Load Cell   |                    
+                 |     Sensor    |                    
+                 +---------------+                    
+                                                      
+                                                      
+                                                      
++----------------------------------------------------+
+|                                                    |
+|           - DFRobot Solar Panel (5V, 1A)           |
+|           - 3.7V Lithium Battery                   |
+|           - Solar Power Manager                    |
+|                                                    |
++----------------------------------------------------+    
+  </pre>
+</div>		    
+            </section>
+       </div>
           
           <div class="what-we-do__services-layout__column">
             <section aria-label="3" class="service">
@@ -243,89 +307,7 @@
 </pre>
 </div>
 	    
-	</section>
-          </div>		
-		
-       <div class="what-we-do__services-layout__column">
-            <section aria-label="1" class="service">
-              <h3 class="service__heading">
-                <span class="service__heading__content">
-                  <span class="service__heading__content__text">Smart:space</span>
-                </span>
-              </h3>
-              <p class="service__description">🛖 Sustainable modular habitat prototype, re-imagining sustainable living. Crafted for safari lodges, eco-cabins, and garden rooms, this 100% solar-powered habitat operates on a 12VDC ecosystem that integrates intelligent, low-voltage lighting control with presence-based automation. The design includes a compact single-room unit, and an optional sanitary extension that features a waterless toilet, contactless hand-washing tap, and rainwater harvesting kit. This combination of efficiency, eco-friendliness, and innovative design appeals to people pursuing sustainable off-grid living - while offering investors a unique entry into a growing market of green, modular habitats.</p>
-              <!--<ul aria-label="Process Automation" class="service__list" role="list">
-                <li class="service__list__item"><a href="https://anvil.works" target="_blank" rel="nofollow"><img style="padding-top: 20px; padding-bottom: 21px" src="img/anvil_logo.svg" width="20%"/></a></li>
-                <li class="service__list__item">Building integrated web apps</li>
-              </ul>-->
- <!-- Toggle Button -->
-  <button id="toggleButton3">+ View sketch</button>
-  
-  <!-- Diagram Container -->
-  <div class="diagram-container" id="diagramContainer3">
-  <pre class="diagram">
-    ----------150----------------- -------------------------350-------------------------------------      
-                                                                                                          
-    +------+--------------+-------+---------------                   -------------------------------+     
- |  |      | Contactless  |       |               -------window------                               |   | 
- |  |      | Tap & Basin  |        |                                                                |   | 
- |  |      |(Wash Station)|        |                                                                |   | 
- |  |      +--------------+        |                                                                |   | 
- |  |                              |                                                                |   | 
- |  |                            door                                                               |   | 
- |  |                              |                                                                |   | 
- |  |                              |                                                                |   | 
- |  |       W A S H R O O M        |                                                                |   | 
- |  |                              |                                                                |   | 
- |  |                             |                                                                 |   | 
- |  |      +--------------+       |                                                                 |   | 
- |  |      |              |       |                                                                 |   | 
- |  |      |   Waterless  |       |                                                                 |   | 
- |  |      |    Toilet    |       |                                                                 |   | 
- |  |      |              |       |                                                                 |   | 
- |  |      |              |       |                                                                 |   | 
- |  |      |              |       |                                                                 |  350
- |  |      +--------------+       |                                                                 |   | 
- |  +-----------------------------+                                                                 |   | 
- |  | +----+--------------+-----+ |                       M A I N R O O M                           |   | 
- |  | |    |              |     | |                                                                 |   | 
- |  | |    |              |     | |                                                                 |   | 
-500 | |    | Ejectortank  |     | |                                                                 |   | 
- |  | |    |              |     | |                                                                 |   | 
- |  | |    |              |     | |                                                                 |   | 
- |  | |    |              |     | |                                                                 |   | 
- |  | |    +--------------+     | |                                                                 |   | 
- |  | |                         | |                                                                 |   | 
- |  | |                         | |                                                                 |   | 
- |  | |       Water Tank        | |                                                                 |   | 
- |  | +-------------------------+ |                                                                 |   | 
- |  |                             |                                                                 |   | 
- |  |                        +----+                                                                 |   | 
- |  |     S T O R E R O O M  |    |                                                                 |   | 
- |  |                        |Ctrl|                                                                 |   | 
- |  |                        |Hub |                                                                 |   | 
- |  |                        |    |                                                                 |   | 
- |  +---                  ---+----+----------------                                              ---+     
- |  |   ------door--------                         ------------------door------------------------   |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |  150
- |  |                                                                                               |   | 
- |  |                                           D E C K                                             |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  |                                                                                               |   | 
- |  +-----------------------------------------------------------------------------------------------+     
-                                                                                                          
-    -----------------------------------------------500-----------------------------------------------     </pre>
-</div>		    
-            </section>
+
           </div>
       
 
