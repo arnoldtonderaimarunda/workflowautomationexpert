@@ -128,52 +128,52 @@
   <!-- Diagram Container -->
   <div class="diagram-container" id="diagramContainer1">
   <pre class="diagram">
-                   +-------------------------------+                     
-                   |    Cloud / Remote Server      |                     
-                   +-------------------------------+                     
-                                  ↑                                      
-                               [TCP/IP]                                  
-                                  ↓                                      
-                   +-------------------------------+                     
-                   |        SenseCAP M2            |                     
-                   |         (Gateway)             |                     
-                   +-------------------------------+                     
-                                  ↑                                      
-                              [LoRaWAN]                                  
-                                  ↓                                      
-                   +-------------------------------+                     
-                   |       SenseCap D1L            |                     
-                   | (Touch Display/Controller)    |                     
-                   +-------------------------------+                     
-                                  ↑                                      
-                              [Wireless]                                 
-                                  ↓                                      
-                   +-------------------------------+                     
-                   |         reRouter CM4          |                     
-                   |           (IoT Hub)           |                     
-                   +--------------+----------------+                     
-                                  |                                      
-           +----------------------+-------------------------+            
-           |                      |                         |            
-       [Wireless]             [Wireless]                [Wireless]       
-           |                      |                         |            
-+----------+--------+   +---------+---------+     +---------+---------+  
-| Xiao e-Paper Panel|   |   Xiao AC Relay   |     |    Xiao AC Meter  |  
-+-------------------+   +---------+---------+     +---------+---------+  
-                                  |                         |            
-                               [Wired]                   [Wired]         
-                                  |                         |            
-                      +-----------+-----------+             |            
-                      |                       |             |            
-              +-------+-------+       +-------+-------+     |            
-              |  Light Switch |       |  Wall Socket  |     |            
-              +---------------+       +---------------+     |            
-                                                            |            
-                                                     +------+-----+      
-                                                     |            |      
-                                                +--- +-----+ +--- +-----+
-                                                |   Grid   | |  Solar   |
-                                                +----------+ +----------+
+                      +-------------------------------+                     
+                      |    Cloud / Remote Server      |                     
+                      +-------------------------------+                     
+                                     ↑                                      
+                                  [TCP/IP]                                  
+                                     ↓                                      
+                      +-------------------------------+                     
+                      |        SenseCAP M2            |                     
+                      |         (Gateway)             |                     
+                      +-------------------------------+                     
+                                     ↑                                      
+                                 [LoRaWAN]                                  
+                                     ↓                                      
+                      +-------------------------------+                     
+                      |       SenseCap D1L            |                     
+                      | (Touch Display/Controller)    |                     
+                      +-------------------------------+                     
+                                     ↑                                      
+                                 [Wireless]                                 
+                                     ↓                                      
+                      +-------------------------------+                     
+                      |         reRouter CM4          |                     
+                      |           (IoT Hub)           |                     
+                      +--------------+----------------+                     
+                                     |                                      
+              +----------------------+-------------------------+            
+              |                      |                         |            
+          [Wireless]             [Wireless]                [Wireless]       
+              |                      |                         |            
++-----------------------+  +---------+---------+     +---------+---------+  
+| XIAO 7" e-Paper Panel |  |   XIAO AC Relay   |     |    XIAO AC Meter  |  
++-----------------------+  +---------+---------+     +---------+---------+  
+                                     |                         |            
+                                  [Wired]                   [Wired]         
+                                     |                         |            
+                         +-----------+-----------+             |            
+                         |                       |             |            
+                 +-------+-------+       +-------+-------+     |            
+                 |  Light Switch |       |  Wall Socket  |     |            
+                 +---------------+       +---------------+     |            
+                                                               |            
+                                                        +------+-----+      
+                                                        |            |      
+                                                   +--- +-----+ +--- +-----+
+                                                   |   Grid   | |  Solar   |
+                                                   +----------+ +----------+
 </pre>
 </div>
 	    </section>
@@ -197,48 +197,54 @@
   <!-- Diagram Container -->
   <div class="diagram-container" id="diagramContainer3">
   <pre class="diagram">
-     +------------------------------------------+    
-      |           Cloud / Remote Server          |    
-      +------------------------------------------+    
-                         ↑                            
-                     [TCP/IP]                         
-                         ↓                            
-      +------------------------------------------+    
-      |              SenseCAP M2                 |    
-      |                 Gateway                  |    
-      +------------------------------------------+    
-                         ↑                            
-                     [LoRaWAN]                        
-                         ↓                            
-      +------------------------------------------+    
-      |          SenseCAP Indicator D1L          |    
-      |       (Touch Display/Controller)         |    
-      +------------------+-----------------------+    
-                         |                            
-                         |                            
-                   Sensor Grove Port                  
-                         |                            
-                 +-------+-------+                    
-                 |   Grove ADC   |                    
-                 |     HX711     |                    
-                 +-------+-------+                    
-                         |                            
-                         |                            
-                 +-------+-------+                    
-                 |     0-50kg    |                    
-                 |   Load Cell   |                    
-                 |     Sensor    |                    
-                 +---------------+                    
-                                                      
-                                                      
-                                                      
-+----------------------------------------------------+
-|                                                    |
-|           - DFRobot Solar Panel (5V, 1A)           |
-|           - 3.7V Lithium Battery                   |
-|           - Solar Power Manager                    |
-|                                                    |
-+----------------------------------------------------+    
+                        +-------------------------------+                  
+                        |    Cloud / Remote Server      |                  
+                        +-------------------------------+                  
+                                       ↑                                   
+                                    [TCP/IP]                               
+                                       ↓                                   
+                        +-------------------------------+                  
+                        |        SenseCAP M2            |                  
+                        |         (Gateway)             |                  
+                        +-------------------------------+                  
+                                       ↑                                   
+                                   [LoRaWAN]                               
+                                       ↓                                   
+                        +-------------------------------+                  
+                        |       SenseCap D1L            |                  
+                        | (Touch Display/Controller)    |                  
+                        +-------------------------------+                  
+                                       ↑                                   
+                                   [Wireless]                              
+                                       ↓                                   
+                        +-------------------------------+                  
+                        |         reRouter CM4          |                  
+                        |           (IoT Hub)           |                  
+                        +--------------+----------------+                  
+                                       |                                   
+                +----------------------+-------------------------+         
+                |                                                |         
+            [Wireless]                                       [Wireless]    
+                |                                                |         
++---------------+----------------+                       +-------+--------+
+|         XIAO ESP32-S3          |                       |    XIAO 7"     |
+| Expansion Board Base with OLED |                       | e-Paper Panel  |
++---------------+----------------+                       +----------------+
+                |                                                          
+                |                                                          
+          Sensor Grove Port                                                
+                |                                                          
+        +-------+-------+                                                  
+        |   Grove ADC   |                                                  
+        |     HX711     |                                                  
+        +-------+-------+                                                  
+                |                                                          
+                |                                                          
+        +-------+-------+                                                  
+        |     0-50kg    |                                                  
+        |   Load Cell   |                                                  
+        |     Sensor    |                                                  
+        +---------------+                                                                                                   
   </pre>
 </div>		    
             </section>
@@ -251,7 +257,7 @@
                   <span class="service__heading__content__text">Hydro:metrica</span>
                 </span>
               </h3>
-              <p class="service__description">💧 A smart water telemetry prototype, designed for resource management in greenhouses, homes, offices, and workshops, providing real-time monitoring and automated distribution control. The platform integrates a flow meter sensor, and relay-actuated valve to enable precise regulation of water usage based on demand patterns, minimising waste and improving overall system efficiency.</p>
+              <p class="service__description">💧 A smart water telemetry prototype, designed for resource management in greenhouses, homes, offices, and workshops, providing real-time monitoring and automated distribution control. The ecosystem can integrate a tank level guage,  flow meter, and relay-actuated valve to enable precise regulation of water usage based on demand patterns, minimising waste and improving overall system efficiency.</p>
               <!--<ul aria-label="e-Commerce Automation" class="service__list" role="list">
                 <li class="service__list__item"><a href="https://www.raspberrypi.com" target="_blank" rel="nofollow"><img src="img/raspberrypi_logo.svg" style="padding-top: 25px; padding-bottom: 24px" width="15%"/></br></a></li>
                 <li class="service__list__item">Building Internet of Things</li>
@@ -262,48 +268,49 @@
   <!-- Diagram Container -->
   <div class="diagram-container" id="diagramContainer2">
   <pre class="diagram">
-                              +------------------------------------------+                              
-                              |           Cloud / Remote Server          |                              
-                              +------------------------------------------+                              
-                                                 ↑                                                      
-                                             [TCP/IP]                                                
-                                                 ↓                                                      
-                              +------------------------------------------+                              
-                              |              SenseCAP M2                 |                              
-                              |                 Gateway                  |                              
-                              +------------------------------------------+                              
-                                                 ↑                                                      
-                                             [LoRaWAN]                                                  
-                                                 ↓                                                      
-                              +------------------------------------------+                              
-                              |          SenseCAP Indicator D1L          |                              
-                              |       (Touch Display/Controller)         |                              
-                              +----+--------------------------------+----+                              
-                                  /                                  \                                  
-                                 /                                    \                                 
-                        Actuator Grove Port                      Sensor Grove Port                      
-                                 |                                     |                                
-                         +-----------------+              +-----------------------+                     
-                         |   Grove Relay   |              | Grove Voltage Divider |                     
-                         |   (5V/10A)      |              |       (5V → 3.3V)     |                     
-                         +-------+- -------+              +------- ------- -------+                     
-                                 |                                     |                                
-+-------------+                  v                                     v                                
-|             |        +-------------------+                    +--------------+        |              |
-|             |        |    Solenoid       |                    |   Flow       |        |     Water    |
-|   Water     +------->|      Valve        |-------Water------> |   Meter      +------->|  Destination |
-|  Source     |        |    (12V RPE)      |     Pipeline       |  (5V RPE)    |        |              |
-|             |        +-------------------+                    +--------------+        |              |
-+-------------+                                                                         +--------------+
-                                                                                                        
-                                                                                                        
-                          +----------------------------------------------------+                        
-                          |                                                    |                        
-                          |           - DFRobot Solar Panel (5V, 1A)           |                        
-                          |           - 3.7V Lithium Battery                   |                        
-                          |           - Solar Power Manager                    |                        
-                          |                                                    |                        
-                          +----------------------------------------------------+
+                                                                     +------------------------------------------+                                                                  
+                                                                     |           Cloud / Remote Server          |                                                                  
+                                                                     +------------------------------------------+                                                                  
+                                                                                        ↑                                                                                          
+                                                                                    [TCP/IP]                                                                                       
+                                                                                        ↓                                                                                          
+                                                                     +------------------------------------------+                                                                  
+                                                                     |              SenseCAP M2                 |                                                                  
+                                                                     |                 Gateway                  |                                                                  
+                                                                     +------------------------------------------+                                                                  
+                                                                                        ↑                                                                                          
+                                                                                    [LoRaWAN]                                                                                      
+                                                                                        ↓                                                                                          
+                                                                         +-------------------------------+                                                                         
+                                                                         |         reRouter CM4          |                                                                         
+                                                                         |           (IoT Hub)           |                                                                         
+                                                                         +--------------+----------------+                                                                         
+                                                                                        |                                                                                          
+                                                                                        |                                                                                          
+                                            +-------------------------------------------+---------------------------------------------+---------------------------------+          
+                                            |                                           |                                             |                                 |          
+                                        [Wireless]                                  [Wireless]                                    [Wireless]                        [Wireless]     
+                                            |                                           |                                             |                                 |          
+                         +------------------+-------------------+    +------------------+-------------------+    +--------------------+-----------------+    +----------+--------+ 
+                         |            XIAO ESP32-S3             |    |            XIAO ESP32-S3             |    |            XIAO ESP32-S3             |    |       XIAO 7"     | 
+                         |    Expansion Board Base with OLED    |    |    Expansion Board Base with OLED    |    |    Expansion Board Base with OLED    |    |    e-Paper Panel  | 
+                         +------------------+-------------------+    +------------------+-------------------+    +--------------------+-----------------+    +-------------------+ 
+                                            |                                           |                                             |                                            
+                                            |                                           |                                             |                                            
+                                     Analog Grove Port                         Actuator Grove Port                             Sensor Grove Port                                   
+                                            |                                           |                                             |                                            
+                                +-----------+-----------+                       +-------+---------+                           +-------+--------+                                   
+                                | Grove Voltage Divider |                       |   Grove Relay   |                           |  Grove Screw   |                                   
+                                |       (5V → 3.3V)     |                       |    (5V/10A)     |                           |    Terminal    |                                   
+                                +------- ---+--- -------+                       +-------+- -------+                           +------- --------+                                   
+                                            |                                           |                                             |                                            
++-------------+                             |                                           |                                             |                                            
+|             |                   +---------+---------+                       +---------+---------+                            +------+-------+                    |              |
+|             |                   |      0-5VDC       |                       |  Direct Solenoid  |                            |  Flow Sensor |                    |              |
+|    Water    +--  Universal----->|    eTape Sensor   |--------Universal ---->|      Valve        |----------Universal ------->|    Meter     +-----Universal----->|     Water    |
+|   Source    |    Connector      |    Level Gauge    |        Connector      |    R-Series 12V   |          Connector         | R-Series 5V  |     Connector      |  Destination |
+|             |                   +-------------------+                       +-------------------+                            +--------------+                    |              |
++-------------+                                                                                                                                                    +--------------+
 </pre>
 </div>
 	    
